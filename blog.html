@@ -2,37 +2,43 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Blog - BudgetFitZone</title>
-  <meta name="description" content="Read budget fitness tips, product reviews, and workout guides at BudgetFitZone." />
   <style>
-    body { font-family: Arial, sans-serif; max-width: 700px; margin: 2rem auto; padding: 0 1rem; background: #f9f9f9; color: #222; }
-    h1 { color: #2d7a2d; }
-    a { color: #2d7a2d; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    article { margin-bottom: 2rem; }
+    body { font-family: 'Segoe UI', sans-serif; background: #000; color: #fff; margin: 0; }
+    nav { background: #111; padding: 1rem; text-align: center; }
+    nav a { color: #fff; margin: 0 15px; text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+    header { text-align: center; padding: 2rem 1rem; }
+    .blog-container { max-width: 1000px; margin: 0 auto; padding: 1rem; }
+    .post { background: #111; padding: 1.5rem; margin-bottom: 1.5rem; border-radius: 8px; }
+    .post h2 a { color: #fff; text-decoration: none; }
+    .post h2 a:hover { text-decoration: underline; }
+    .post p { color: #ccc; }
   </style>
 </head>
 <body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="blog.html">Blog</a>
+  </nav>
   <header>
     <h1>BudgetFitZone Blog</h1>
-    <p><a href="index.html">← Back to Home</a></p>
+    <p>Your Source for Smart, Budget-Friendly Fitness</p>
   </header>
-  <main>
-    <article>
-      <h2><a href="blog1.html">Top 5 Budget Dumbbells for Home Workouts in India</a></h2>
-      <p>Discover affordable and durable dumbbells perfect for beginners to start strength training at home.</p>
-    </article>
-
-    <article>
-      <h2><a href="blog2.html">How to Build a Home Gym Without Breaking the Bank</a></h2>
-      <p>Learn how to create an effective workout space at home with budget-friendly fitness equipment.</p>
-    </article>
-
-    <article>
-      <h2><a href="blog3.html">Best Resistance Bands for Beginners: Affordable and Effective</a></h2>
-      <p>Explore the best budget resistance bands to improve strength and flexibility with easy exercises.</p>
-    </article>
-  </main>
+  <div class="blog-container">
+    <div class="post">
+      <h2><a href="post1.html">Top 5 Budget Fitness Products You Actually Need</a></h2>
+      <p>Discover affordable gear that gets the job done without breaking the bank.</p>
+    </div>
+    <div class="post">
+      <h2><a href="post2.html">How to Build Muscle at Home Without a Gym</a></h2>
+      <p>No gym? No problem. Learn how to build strength on a budget.</p>
+    </div>
+    <div class="post">
+      <h2><a href="post3.html">Best Protein Sources Under ₹500</a></h2>
+      <p>Get the gains without burning your wallet. Affordable protein picks in India.</p>
+    </div>
+  </div>
 </body>
 </html>
