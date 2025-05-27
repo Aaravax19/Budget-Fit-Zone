@@ -2,168 +2,163 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BudgetFitZone - Affordable Fitness Gear for Everyone</title>
-
-  <!-- SEO Meta Tags -->
-  <meta name="description" content="Discover the best budget-friendly fitness equipment for home workouts. Save money while getting fit with affordable dumbbells, yoga mats, protein, and more." />
-  <meta name="keywords" content="budget fitness, home gym, affordable workout gear, cheap exercise equipment, resistance bands, yoga mats, protein powder India" />
-  <meta name="author" content="BudgetFitZone" />
-  <meta name="robots" content="index, follow" />
-
-  <!-- Social Sharing (Open Graph) -->
-  <meta property="og:title" content="BudgetFitZone - Affordable Fitness Gear" />
-  <meta property="og:description" content="Home fitness made affordable. Discover the best cheap workout equipment and build your dream gym on a budget." />
-  <meta property="og:url" content="https://budgetfitzone.shop" />
-  <meta property="og:image" content="https://budgetfitzone.shop/images/cover.jpg" />
-  <meta name="twitter:card" content="summary_large_image" />
-
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BudgetFitZone - Affordable Fitness Equipment & Tips</title>
+  <meta name="description" content="Budget-friendly fitness equipment and workout tips to help you build strength and stay healthy without breaking the bank." />
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f6f6f6;
-      margin: 0;
-      padding: 0;
-    }
-
-    header {
-      background-color: #1e1e1e;
-      color: #fff;
-      padding: 2rem;
-      text-align: center;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-
-    header p {
-      margin-top: 0.5rem;
-      font-size: 1.2rem;
-      color: #ccc;
-    }
-
-    main {
-      max-width: 1100px;
+      font-family: Arial, sans-serif;
+      max-width: 900px;
       margin: 2rem auto;
-      padding: 1rem;
-    }
-
-    h2 {
-      text-align: center;
+      padding: 0 1rem;
+      background: #f9f9f9;
       color: #222;
-      margin-bottom: 2rem;
     }
-
-    .product-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1.5rem;
-    }
-
-    .product {
-      background-color: #fff;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
-      padding: 1rem;
+    nav {
+      background: #2d7a2d;
+      padding: 10px;
       text-align: center;
-      transition: transform 0.2s ease;
+      margin-bottom: 2rem;
+      border-radius: 8px;
     }
-
-    .product:hover {
-      transform: translateY(-4px);
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
     }
-
-    .product img {
-      width: 100%;
-      max-height: 180px;
-      object-fit: contain;
+    nav a:hover {
+      text-decoration: underline;
+    }
+    header h1 {
+      color: #2d7a2d;
+      margin-bottom: 0.2rem;
+    }
+    header p.motto {
+      font-style: italic;
+      color: #555;
+      margin-top: 0;
+    }
+    section.products {
+      margin-top: 2rem;
+    }
+    section.products h2 {
+      color: #2d7a2d;
       margin-bottom: 1rem;
     }
-
-    .product h3 {
-      font-size: 1.1rem;
-      margin: 0.5rem 0;
-      color: #111;
+    .product {
+      background: #e1f3e1;
+      border-radius: 8px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
     }
-
-    .product p {
-      font-size: 0.95rem;
-      color: #555;
+    .product img {
+      max-width: 120px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
     }
-
-    .product a {
-      display: inline-block;
-      margin-top: 0.8rem;
-      padding: 0.5rem 1.2rem;
-      background-color: #16a085;
-      color: #fff;
+    .product-info {
+      flex-grow: 1;
+    }
+    .product-info h3 {
+      margin: 0 0 0.5rem 0;
+      color: #2d7a2d;
+    }
+    .product-info a {
+      color: #2d7a2d;
       text-decoration: none;
-      border-radius: 5px;
-      font-weight: 500;
+      font-weight: bold;
     }
-
-    footer {
+    .product-info a:hover {
+      text-decoration: underline;
+    }
+    /* Blog promo section */
+    section.blog-promo {
+      margin-top: 3rem;
+      padding: 1rem;
+      background: #e1f3e1;
+      border-radius: 8px;
       text-align: center;
-      padding: 2rem;
-      background-color: #222;
-      color: #bbb;
+    }
+    section.blog-promo h2 {
+      color: #2d7a2d;
+      margin-bottom: 0.5rem;
+    }
+    section.blog-promo a {
+      color: #2d7a2d;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 1.1rem;
+    }
+    section.blog-promo a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
 
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="blog.html">Blog</a>
+  </nav>
+
   <header>
     <h1>BudgetFitZone</h1>
-    <p>Fitness shouldn’t break the bank. Get fit, stay strong — affordably.</p>
+    <p class="motto">Affordable Fitness Equipment & Tips for Everyone</p>
   </header>
 
-  <main>
-    <h2>Top Budget Fitness Gear Picks</h2>
-    <div class="product-grid">
+  <section class="products">
+    <h2>Recommended Budget Fitness Products</h2>
 
-      <div class="product">
-        <img src="https://m.media-amazon.com/images/I/71qXfnHlhwL._SL1500_.jpg" alt="Boldfit Resistance Bands" />
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/61AS0fwh4xL._SL1500_.jpg" alt="Boldfit Resistance Bands" />
+      <div class="product-info">
         <h3>Boldfit Resistance Bands</h3>
-        <p>Strengthen and tone your body at home. A versatile set for full-body workouts.</p>
-        <a href="https://amzn.in/d/4UroMgU" target="_blank">Buy on Amazon</a>
+        <a href="https://amzn.in/d/4UroMgU" target="_blank" rel="noopener noreferrer">Buy on Amazon</a>
       </div>
-
-      <div class="product">
-        <img src="https://m.media-amazon.com/images/I/61D23U1KaaL._SL1500_.jpg" alt="2kg Dumbbells" />
-        <h3>2kg Dumbbell Set</h3>
-        <p>Perfect for beginners. Compact, colorful, and ideal for daily workouts.</p>
-        <a href="https://amzn.in/d/0bgOznk" target="_blank">Buy on Amazon</a>
-      </div>
-
-      <div class="product">
-        <img src="https://m.media-amazon.com/images/I/713D5YhGAlL._SL1500_.jpg" alt="Yoga Mat" />
-        <h3>Lifelong Yoga Mat</h3>
-        <p>A comfortable, non-slip yoga mat for stretching, pilates, and floor workouts.</p>
-        <a href="https://amzn.in/d/6T1s2Dv" target="_blank">Buy on Amazon</a>
-      </div>
-
-      <div class="product">
-        <img src="https://m.media-amazon.com/images/I/61M9u0qXmyL._SL1200_.jpg" alt="Soy Protein Powder" />
-        <h3>TATA Soy Protein</h3>
-        <p>Boost your nutrition with budget-friendly soy protein. Great for vegetarians.</p>
-        <a href="https://amzn.in/d/6p9fClt" target="_blank">Buy on Amazon</a>
-      </div>
-
-      <div class="product">
-        <img src="https://m.media-amazon.com/images/I/61OdGLG6uFL._SL1500_.jpg" alt="Boldfit Gloves" />
-        <h3>Boldfit Exercise Gloves</h3>
-        <p>Protect your hands while lifting. Comfortable grip and great durability.</p>
-        <a href="https://amzn.in/d/2rbBGE7" target="_blank">Buy on Amazon</a>
-      </div>
-
     </div>
-  </main>
 
-  <footer>
-    &copy; 2025 BudgetFitZone.shop. Built for future fitness champions 💪
-  </footer>
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/61AvxtlGKaL._SL1500_.jpg" alt="2 kg Dumbbell Set" />
+      <div class="product-info">
+        <h3>2 kg Dumbbell Set</h3>
+        <a href="https://amzn.in/d/0bgOznk" target="_blank" rel="noopener noreferrer">Buy on Amazon</a>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/71G3kYc3KQL._SL1500_.jpg" alt="Lifelong Yoga Mat" />
+      <div class="product-info">
+        <h3>Lifelong Yoga Mat</h3>
+        <a href="https://amzn.in/d/6T1s2Dv" target="_blank" rel="noopener noreferrer">Buy on Amazon</a>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/71cyqpN4RWL._SL1500_.jpg" alt="TATA Soy Protein Powder" />
+      <div class="product-info">
+        <h3>TATA Soy Protein Powder</h3>
+        <a href="https://amzn.in/d/6p9fClt" target="_blank" rel="noopener noreferrer">Buy on Amazon</a>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/61BqSXEM5WL._SL1500_.jpg" alt="Boldfit Exercise Gloves" />
+      <div class="product-info">
+        <h3>Boldfit Exercise Gloves</h3>
+        <a href="https://amzn.in/d/2rbBGE7" target="_blank" rel="noopener noreferrer">Buy on Amazon</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="blog-promo">
+    <h2>Check Out Our Latest Articles</h2>
+    <p>Looking for budget workout tips, product reviews, and fitness guides? Visit our <a href="blog.html">Blog</a> to get started!</p>
+  </section>
 
 </body>
 </html>
