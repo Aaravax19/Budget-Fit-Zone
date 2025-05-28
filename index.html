@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Affordable fitness equipment for home gyms. Best prices on dumbbells, resistance bands, yoga mats, and more.">
+    <title>Budget Fitness Items | Affordable Home Gym Equipment</title>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" as="style">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <style>
+        :root {
+            --black: #000000;
+            --white: #FFFFFF;
+            --gray: #F5F5F5;
+            --dark-gray: #333333;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: var(--black);
+            background-color: var(--white);
+        }
+        
+        header {
+            background-color: var(--black);
+            color: var(--white);
+            padding: 1.5rem;
+            text-align: center;
+        }
+        
+        nav {
+            background-color: var(--dark-gray);
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            gap: 1.5rem;
+        }
+        
+        nav a {
+            color: var(--white);
+            text-decoration: none;
+            font-weight: 700;
+            padding: 0.5rem 1rem;
+            transition: all 0.3s ease;
+            border: 1px solid transparent;
+        }
+        
+        nav a:hover, nav a:focus {
+            border-color: var(--white);
+            background-color: var(--white);
+            color: var(--black);
+        }
+        
+        main {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .hero {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: var(--black);
+            color: var(--white);
+            padding: 0.75rem 1.5rem;
+            text-decoration: none;
+            font-weight: 700;
+            border: 2px solid var(--black);
+            transition: all 0.3s ease;
+        }
+        
+        .btn:hover, .btn:focus {
+            background-color: var(--white);
+            color: var(--black);
+        }
+        
+        .featured-products {
+            margin: 3rem 0;
+        }
+        
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        .product-card {
+            border: 1px solid var(--black);
+            padding: 1rem;
+            transition: transform 0.3s ease;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .product-card img {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+            margin-bottom: 1rem;
+        }
+        
+        footer {
+            background-color: var(--black);
+            color: var(--white);
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+                gap: 0.5rem;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Budget Fitness Items</h1>
+        <p>High-quality fitness gear at unbeatable prices</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="info.html">Information</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section class="hero">
+            <h2>Transform Your Home into a Gym</h2>
+            <p>Get professional-grade fitness equipment without the high cost. Perfect for home workouts, personal trainers, and small gyms.</p>
+            
+            <div class="cta-buttons">
+                <a href="products.html" class="btn">Shop Now</a>
+                <a href="info.html" class="btn">Learn More</a>
+            </div>
+        </section>
+        
+        <section class="featured-products">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x300?text=Dumbbells" alt="Adjustable Dumbbells" loading="lazy">
+                    <h3>Adjustable Dumbbells</h3>
+                    <p>$49.99</p>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x300?text=Yoga+Mat" alt="Premium Yoga Mat" loading="lazy">
+                    <h3>Premium Yoga Mat</h3>
+                    <p>$19.99</p>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x300?text=Resistance+Bands" alt="Resistance Bands Set" loading="lazy">
+                    <h3>Resistance Bands Set</h3>
+                    <p>$24.99</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Budget Fitness Items. All rights reserved.</p>
+    </footer>
+</body>
+</html>
